@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 400px;
+    margin: 0 auto;
+}
+body{
+    background: linear-gradient(to right, rgb(70, 62, 146), rgb(145, 73, 109))
+}
+h1{
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    padding: 15px 0;
+}
+ul{
+    border-right: 1px solid rgb(165, 165, 165);
+    border-left: 1px solid rgb(165, 165, 165);
+    border-bottom: 1px solid rgb(165, 165, 165);
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+ 
+    display: block;
+    line-height: 40px;
+}
+li:nth-of-type(odd){
+    background-color: rgb(196, 196, 196);
+}
+li:nth-of-type(even){
+    background-color: rgb(252, 252, 252);
+}
+input{
+    width: 100%;
+    box-sizing: border-box;
+    line-height: 38px;
+    text-align: center;
+}
+input:focus{
+    outline: none;
+}
+span{
+    margin-right: 10px;
+    background: red;
+    color:white;
+    opacity: .0;
+    width: 0px;
+    display: inline-block;
+    transition: .3s; 
+}
+span:hover{
+    margin-right: 0px;
+    opacity: 1;
+    width: 40px;
+    text-align: center;
+    height:40px;
+}
+.strike{
+   text-decoration: line-through;
+}
