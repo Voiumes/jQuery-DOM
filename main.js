@@ -5,7 +5,6 @@ $("input").keypress(function(){
         $(this).val('')
     }
 })
-
 $("ul").on("click", "span", function(){
     $(this).parent().fadeOut(400, function(){
        $(this).remove();
