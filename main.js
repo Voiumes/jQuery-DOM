@@ -10,6 +10,7 @@ $("ul").on("click", "span", function(){
        $(this).remove();
     })
 })
+
 $("ul").on("click", "li", function(){
     $(this).toggleClass('strike');
 })
